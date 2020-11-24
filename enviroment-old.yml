@@ -1,0 +1,13 @@
+name: visio_per_computador
+channels:
+  - defaults
+dependencies:
+  - conda=4.9.0
+  - matplotlib=3.3.2
+  - numpy=1.19.2
+  - python=3.8.5
+  - pip=20.2.4
+  - tqdm=4.50.2
+  - pip:
+    - opencv-contrib-python==4.4.0.44
+
